@@ -52,10 +52,10 @@ Other files and their explanation;
 * util.c - this sets up some basic board stuff, and implements the SysTick
   handler to give reasonable timing delays. 
 
-[stm:] http://www.st.com/web/catalog/tools/FM146/CL1984/SC720/SS1462/PF255417
-[bb:] http://www.newark.com/stmicroelectronics/stm32f4dis-bb/dev-kit-cortex-m4f-stm32f4xx-discovery/dp/47W1731
-[lcd:] http://www.newark.com/stmicroelectronics/stm32f4dis-lcd/daughter-card-3-5inch-touch-screen/dp/47W1734
-[d2:] http://www.element14.com/community/docs/DOC-51670/l/stm32f4dis-bb-discover-more-software-examples
-[ada:] http://learn.adafruit.com/adafruit-gfx-graphics-library/overview
-[gfx:] https://github.com/adafruit/Adafruit-GFX-Library
+[stm]: http://www.st.com/web/catalog/tools/FM146/CL1984/SC720/SS1462/PF255417
+[bb]: http://www.newark.com/stmicroelectronics/stm32f4dis-bb/dev-kit-cortex-m4f-stm32f4xx-discovery/dp/47W1731
+[lcd]: http://www.newark.com/stmicroelectronics/stm32f4dis-lcd/daughter-card-3-5inch-touch-screen/dp/47W1734
+[d2]: http://www.element14.com/community/docs/DOC-51670/l/stm32f4dis-bb-discover-more-software-examples
+[ada]: http://learn.adafruit.com/adafruit-gfx-graphics-library/overview
+[gfx]: https://github.com/adafruit/Adafruit-GFX-Library
 
