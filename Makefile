@@ -17,10 +17,11 @@
 ## along with this library.  If not, see <http://www.gnu.org/licenses/>.
 ##
 
+LIBOPENCM3_DIR = /filer/cmcmanis/arm-experiments/libopencm3
 OBJS = lcd.o util.o gfx.o
 BINARY = lcd_demo
 
 LDSCRIPT = ../stm32f4-discovery.ld
 
-include ../../Makefile.include
+include Makefile.include
 

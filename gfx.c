@@ -413,8 +413,8 @@ void gfx_drawChar(int16_t x, int16_t y, unsigned char c,
   glyph = &mcm_font[(c & 0x7f) * 9];
   if((x >= __gfx_state._width)            || // Clip right
      (y >= __gfx_state._height)           || // Clip bottom
-     ((x + 9 * size - 1) < 0) || // Clip left
-     ((y + 12 * size - 1) < 0))   // Clip top
+     ((x + 9 * size) < 0) || // Clip left
+     ((y + 12 * size) < 0))   // Clip top
     return;
 
   descender = (*glyph & 0x80) != 0;

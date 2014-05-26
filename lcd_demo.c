@@ -1,5 +1,7 @@
 /* LCD functions */
 
+#include <stdint.h>
+#include <libopencm3/cm3/assert.h>
 #include <libopencm3/stm32/f4/rcc.h>
 #include <libopencm3/stm32/f4/gpio.h>
 #include <libopencm3/cm3/nvic.h>

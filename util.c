@@ -7,6 +7,8 @@
  *
  */
 
+#include <stdint.h>
+#include <libopencm3/cm3/assert.h>
 #include <libopencm3/stm32/f4/rcc.h>
 #include <libopencm3/stm32/f4/gpio.h>
 #include <libopencm3/stm32/usart.h>
@@ -43,7 +45,7 @@ systick_setup(void)
 {
     /* clock rate / 1000 to get 1mS interrupt rate */
     systick_set_reload(168000);
-    systick_set_clocksource(1);
+    systick_set_clocksource(STK_CSR_CLKSOURCE_AHB);
     systick_counter_enable();
     /* this done last */
     systick_interrupt_enable();
